@@ -1,113 +1,136 @@
-<!DOCTYPE html>
-<html lang="fa" dir="rtl">
+<!DOCTYPE html><html lang="fa" dir="rtl">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>قفل‌سازی امیر</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>قفل‌سازی امیر | خدمات شبانه‌روزی قفل و ریموت</title>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Tahoma', sans-serif;
       margin: 0;
-      padding: 0;
-      background: #f8f9fa;
+      font-family: 'Vazirmatn', sans-serif;
+      background: #f7f7f7;
       color: #333;
     }
     header {
-      background-color: #212529;
-      color: #fff;
-      padding: 20px;
+      background: linear-gradient(to left, #0d47a1, #1976d2);
+      color: white;
+      padding: 30px 20px;
       text-align: center;
     }
     header h1 {
       margin: 0;
-      font-size: 28px;
+      font-size: 2.5rem;
     }
-    header p {
-      font-size: 18px;
+    nav {
+      background: #004080;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
       color: #ffc107;
     }
-    .gallery {
-      padding: 30px;
-      background: #343a40;
-      color: #fff;
-    }
-    .gallery h2 {
+    .hero {
+      background: url('images/header.jpg') center/cover no-repeat;
+      padding: 120px 20px;
       text-align: center;
-    }
-    .gallery-item {
-      margin: 15px auto;
-      width: 90%;
-      max-width: 600px;
-      background: #495057;
-      padding: 10px;
-      border-radius: 10px;
-    }
-    .gallery-item img {
-      width: 100%;
-      border-radius: 8px;
-    }
-    .gallery-item p {
-      margin-top: 10px;
-      text-align: center;
-    }
-    .map {
-      text-align: center;
-      padding: 20px;
-    }
-    .whatsapp-button {
-      display: block;
-      width: 200px;
-      margin: 30px auto;
-      padding: 15px;
-      text-align: center;
-      background: #25d366;
       color: white;
-      font-weight: bold;
+      font-size: 2rem;
+    }
+    .services, .gallery, .contact {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .section-title {
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+      color: #0d47a1;
+      border-bottom: 2px solid #0d47a1;
+      display: inline-block;
+    }
+    .service-item {
+      background: white;
+      padding: 20px;
+      margin: 10px 0;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      margin-bottom: 15px;
+    }
+    .contact p {
+      font-size: 1.2rem;
+      margin: 10px 0;
+    }
+    .whatsapp {
+      display: inline-block;
+      background: #25D366;
+      color: white;
+      padding: 10px 20px;
       border-radius: 30px;
       text-decoration: none;
+      font-weight: bold;
+      margin-top: 20px;
+      transition: background 0.3s;
+    }
+    .whatsapp:hover {
+      background: #1ebe5d;
+    }
+    footer {
+      background: #eee;
+      padding: 20px;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+      border-radius: 12px;
+      margin-top: 20px;
     }
   </style>
 </head>
 <body>
   <header>
     <h1>قفل‌سازی امیر</h1>
-    <p>بهترین‌ها را از ما بخواهید</p>
-  </header>
-
-  <div class="map">
-    <iframe
-      src="https://www.google.com/maps?q=35.69439,51.42151&hl=fa&z=16&output=embed"
-      width="90%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-    ></iframe>
-  </div>
-
-  <a class="whatsapp-button" href="https://wa.me/989193371360" target="_blank">
-    تماس در واتساپ
-  </a>
-
-  <section class="gallery">
-    <h2>گالری خدمات قفل‌سازی امیر</h2>
-
-    <div class="gallery-item">
-      <img src="images/20240707_095650.jpg" alt="خدمات قفل‌سازی 1" />
-      <p>خدمات قفل‌سازی 1</p>
-    </div>
-    <div class="gallery-item">
-      <img src="images/20240707_095818.jpg" alt="خدمات قفل‌سازی 2" />
-      <p>خدمات قفل‌سازی 2</p>
-    </div>
-    <div class="gallery-item">
-      <img src="images/20241105_101422.jpg" alt="خدمات قفل‌سازی 3" />
-      <p>خدمات قفل‌سازی 3</p>
-    </div>
-    <div class="gallery-item">
-      <img src="images/20250304_171633.jpg" alt="خدمات قفل‌سازی 4" />
-      <p>خدمات قفل‌سازی 4</p>
-    </div>
-    <div class="gallery-item">
-      <img src="images/20250428_191639.jpg" alt="خدمات قفل‌سازی 5" />
-      <p>خدمات قفل‌سازی 5</p>
-    </div>
-  </section>
+    <p>خدمات فوری، تخصصی و شبانه‌روزی قفل، ریموت، جک پارکینگ و دزدگیر</p>
+  </header>  <nav>
+    <a href="#services">خدمات</a>
+    <a href="#gallery">نمونه‌کارها</a>
+    <a href="#contact">تماس با ما</a>
+  </nav>  <div class="hero">
+    <p>قفل‌سازی سیار در محل | امنیت، سرعت، اعتماد</p>
+  </div>  <section class="services" id="services">
+    <h2 class="section-title">خدمات ما</h2>
+    <div class="service-item">🔒 ساخت و تعمیر انواع قفل درب ضد سرقت، معمولی و گاوصندوق</div>
+    <div class="service-item">🔐 ساخت و کپی انواع ریموت پارکینگ و خودرو</div>
+    <div class="service-item">🚗 نصب و تنظیم جک پارکینگی و درب اتوماتیک</div>
+    <div class="service-item">🛡️ نصب انواع دزدگیر اماکن و خودرو</div>
+    <div class="service-item">📍 نصب ردیاب خودرو، موتور و افراد</div>
+  </section>  <section class="gallery" id="gallery">
+    <h2 class="section-title">نمونه‌کارها</h2>
+    <img src="images/snap1.jpg" alt="نمونه کار 1">
+    <img src="images/snap2.jpg" alt="نمونه کار 2">
+    <img src="images/snap3.jpg" alt="نمونه کار 3">
+  </section>  <section class="contact" id="contact">
+    <h2 class="section-title">تماس با ما</h2>
+    <p>📞 شماره تماس: <strong>09193371360</strong></p>
+    <a class="whatsapp" href="https://wa.me/989193371360" target="_blank">پیام در واتساپ</a>
+    <iframe src="https://www.google.com/maps?q=قفل+سازی+امیر+شهریار&output=embed"></iframe>
+  </section>  <footer>
+    <p>تمام حقوق برای قفل‌سازی امیر محفوظ است © 2025</p>
+  </footer>
 </body>
 </html>
